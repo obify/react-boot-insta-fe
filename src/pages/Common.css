@@ -1,0 +1,63 @@
+.center-container{
+    margin-top: 8rem;
+}
+.socialOnlyTitle{
+    display: none;
+}
+.input-color{
+    background-color: #f3f3f3;
+    color: #dbd5d5;
+    font-size: 0.9rem;
+    height: 2.9rem;
+}
+.dash-line{
+    width:46%;
+    text-align:left;
+    margin-left:0;
+}
+.custom-btn{
+    padding: .6rem;
+    border-radius: 4px;
+}
+.custom-btn-blue{
+    border: 1px solid #b3e0ff;
+    background-color: #b3e0ff;
+    color: #fff;
+}
+.custom-btn-white{
+    border: 2px solid #dee5e9;
+    background-color: #fff;
+    color: rgb(37, 36, 36);
+}
+.title-style{
+    font-family: 'Belleza', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 450px){
+    .center-container{
+        margin-top: 2.2rem;
+        padding: 0px;
+    }
+    .dash-line{
+        width: 44%;
+    }
+    .card-body{
+        padding-left: 1.4rem !important;
+        padding-right: 1.4rem !important;
+    }
+    .card{
+        border: none !important;
+    }
+    .shadow{
+        box-shadow: none !important;
+    }
+    .socialImgWithTitle{
+        display: none;
+    }
+    .socialOnlyTitle{
+        display: block;
+    }
+}
